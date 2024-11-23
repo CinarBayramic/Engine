@@ -2,8 +2,6 @@
 
 #include "types.hpp"
 namespace cgl {
-	cgl::vec2 perspectiveproject(vec3 a) {
-		vec2 a;
-
-	}
+	//self explanatory
+	cgl::vec2 perspectiveproject(vec3 vec, double fov, double aspectratio, double far, double near);
 }
