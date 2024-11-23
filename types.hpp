@@ -6,8 +6,8 @@ namespace cgl {
 	{
 	public:
 		vec2(double X, double Y);
+		vec2() {}
 		double x, y;
-		vec2::vec2(double X, double Y) : x(X), y(Y) { }
 	};
 
 	class vec3
@@ -15,7 +15,6 @@ namespace cgl {
 	public:
 		vec3(double X, double Y, double Z);
 		double x, y, z;
-		vec3::vec3(double X, double Y, double Z) : x(X), y(Y), z(Z) { }
 	};
 }
 #endif

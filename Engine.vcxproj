@@ -65,9 +65,12 @@
   <ItemDefinitionGroup>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="functions.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="types.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="functions.hpp" />
     <ClInclude Include="types.hpp" />
   </ItemGroup>
   <ItemGroup>
